@@ -8,6 +8,8 @@ abstract class Employe {
     private String street;
     private String city;
     private String country;
+    // Employee's zip code
+    private String zipcode;
 
     public Employe(String prenom, String nom, int age){
         this.prenom = prenom;
@@ -71,5 +73,13 @@ abstract class Employe {
 
     public void setCountry(String country) {
         this.country = country;
+    }
+
+    public String getZipcode() {
+        return zipcode;
+    }
+
+    public void setZipcode(String zipcode) {
+        this.zipcode = zipcode;
     }
 }
