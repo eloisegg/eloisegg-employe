@@ -8,6 +8,7 @@ abstract class Employe {
     private String street;
     private String city;
     private String country;
+    // Employee's zip code
     private String zipcode;
 
     public Employe(String prenom, String nom, int age){
