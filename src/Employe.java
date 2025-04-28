@@ -4,6 +4,7 @@ abstract class Employe {
     private int age;
     // This is an email address
     private String email;
+    // Employees address
     private String street;
     private String city;
     private String country;
