@@ -4,6 +4,7 @@ abstract class Employe {
     private int age;
     // This is an email address
     private String email;
+    private String address;
 
     public Employe(String prenom, String nom, int age){
         this.prenom = prenom;
@@ -43,5 +44,13 @@ abstract class Employe {
 
     public void setEmail(String email) {
         this.email = email;
+    }
+
+    public String getAddress() {
+        return address;
+    }
+
+    public void setAddress(String address) {
+        this.address = address;
     }
 }
