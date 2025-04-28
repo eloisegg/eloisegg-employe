@@ -2,7 +2,7 @@ abstract class Employe {
     private String prenom;
     private String nom;
     private int age;
-    // This is an email
+    // This is an email address
     private String email;
 
     public Employe(String prenom, String nom, int age){
