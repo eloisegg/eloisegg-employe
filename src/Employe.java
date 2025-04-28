@@ -4,7 +4,9 @@ abstract class Employe {
     private int age;
     // This is an email address
     private String email;
-    private String address;
+    private String street;
+    private String city;
+    private String country;
 
     public Employe(String prenom, String nom, int age){
         this.prenom = prenom;
@@ -46,11 +48,27 @@ abstract class Employe {
         this.email = email;
     }
 
-    public String getAddress() {
-        return address;
+    public String getStreet() {
+        return street;
     }
 
-    public void setAddress(String address) {
-        this.address = address;
+    public void setStreet(String street) {
+        this.street = street;
+    }
+
+    public String getCity() {
+        return city;
+    }
+
+    public void setCity(String city) {
+        this.city = city;
+    }
+
+    public String getCountry() {
+        return country;
+    }
+
+    public void setCountry(String country) {
+        this.country = country;
     }
 }
